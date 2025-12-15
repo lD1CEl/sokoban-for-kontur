@@ -16,15 +16,12 @@ namespace SocobanLevels
         private void InitializeComponent()
         {
             this.SuspendLayout();
-            // set window title
+            this.ClientSize = new System.Drawing.Size(1024, 1024);
             this.Text = "Socoban";
-            // start centered on screen
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            // prevent maximizing (fixed single border)
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = true;
-            // load Wall.ico from output directory and set as window icon
             try
             {
                 var icoPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Wall.ico");
@@ -39,7 +36,6 @@ namespace SocobanLevels
             }
             catch
             {
-                // ignore if icon not found or load fails
             }
             this.Load += new System.EventHandler(this.SocobanLevelsLoad);
             this.ResumeLayout(false);

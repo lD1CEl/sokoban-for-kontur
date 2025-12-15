@@ -7,3 +7,138 @@ W   B B  W
 W        W
 WP   S  PW
 WWWWWWWWWW
+2 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW
+3 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW
+4 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW
+6 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW
+7 30 8
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+WP                          PW
+W   B B                      W
+WC                           W
+W   B B                      W
+W                            W
+WP   S                      PW
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+8 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW
+9 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW
+10 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW
+11 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW
+12 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW
+13 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW
+14 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW
+15 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW
+16 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PWч
+WWWWWWWWWW
+17 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW
