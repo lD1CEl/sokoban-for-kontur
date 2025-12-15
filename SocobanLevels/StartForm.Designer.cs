@@ -42,6 +42,16 @@ namespace SocobanLevels
                     this.pictureBox1.Image = System.Drawing.Image.FromFile(imgPath);
             }
             catch { }
+            // set window icon from Wall.ico in output directory
+            try
+            {
+                var icoPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Wall.ico");
+                if (System.IO.File.Exists(icoPath))
+                {
+                    this.Icon = new System.Drawing.Icon(icoPath);
+                }
+            }
+            catch { }
             // 
             // titleLabel
             // 
