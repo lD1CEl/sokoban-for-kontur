@@ -5,18 +5,25 @@ namespace SocobanLevels
 {
     public partial class SocobanLevels : Form
     {
-        enum Cell {
+        public enum Cell {
             Empty,
             Wall,
             Box,
-            Done,
+            Completed,
             Point,
-            Player
+            SocobanPlayer
         }
 
         public SocobanLevels()
         {
             InitializeComponent();
+        }
+
+        private void SocobanLevelsLoad(object sender, EventArgs e)
+        {
+            SocobanLevels.Cell[,] cell;
+            LevelFile Level = new LevelFile("levels.txt");
+            cell = Level.Load(1);
         }
     }
 }

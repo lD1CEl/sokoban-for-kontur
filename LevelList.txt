@@ -1,0 +1,9 @@
+1 10 8
+WWWWWWWWWW
+WP      PW
+W   B B  W
+WC       W
+W   B B  W
+W        W
+WP   S  PW
+WWWWWWWWWW

@@ -1,0 +1,15 @@
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\obj\Debug\net8.0-windows\SocobanLevels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\obj\Debug\net8.0-windows\SocobanLevels.AssemblyInfoInputs.cache
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\obj\Debug\net8.0-windows\SocobanLevels.AssemblyInfo.cs
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\obj\Debug\net8.0-windows\SocobanLevels.csproj.CoreCompileInputs.cache
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\obj\Debug\net8.0-windows\SocobanLevels.sourcelink.json
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\obj\Debug\net8.0-windows\SocobanLevels.genruntimeconfig.cache
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\bin\Debug\net8.0-windows\Socoban.exe
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\bin\Debug\net8.0-windows\Socoban.deps.json
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\bin\Debug\net8.0-windows\Socoban.runtimeconfig.json
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\bin\Debug\net8.0-windows\Socoban.dll
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\bin\Debug\net8.0-windows\Socoban.pdb
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\obj\Debug\net8.0-windows\Socoban.dll
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\obj\Debug\net8.0-windows\refint\Socoban.dll
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\obj\Debug\net8.0-windows\Socoban.pdb
+C:\Users\nat00\RiderProjects\sokoban-for-kontur\SocobanLevels\obj\Debug\net8.0-windows\ref\Socoban.dll
