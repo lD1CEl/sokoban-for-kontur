@@ -11,7 +11,7 @@ namespace SocobanLevels
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SocobanLevels());
+            Application.Run(new StartForm());
         }
     }
 }
