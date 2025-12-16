@@ -1,0 +1,24 @@
+# Ignore build outputs
+/bin/
+/obj/
+**/bin/
+**/obj/
+
+# Ignore compiled binaries and symbols
+*.exe
+*.dll
+*.pdb
+
+# Visual Studio / Rider / IDE settings
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+
+# MSBuild/SDK generated intermediate files
+**/preprocessed.xml
+
+# OS files
+.DS_Store
+Thumbs.db
