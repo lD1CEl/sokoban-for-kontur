@@ -12,5 +12,6 @@ namespace SocobanLevels
         void ShowLevelCompleted();
         void CloseView();
         void ShowView();
+        void UpdateMoveCounter(int moves);
     }
 }

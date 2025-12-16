@@ -6,6 +6,7 @@ namespace SocobanLevels
     {
         private System.ComponentModel.IContainer components = null;
         private System.Windows.Forms.Button startButton;
+        private System.Windows.Forms.Button leaderboardButton;
         private System.Windows.Forms.Label titleLabel;
 
         protected override void Dispose(bool disposing)
@@ -21,11 +22,13 @@ namespace SocobanLevels
         {
             this.components = new System.ComponentModel.Container();
             this.startButton = new System.Windows.Forms.Button();
+            this.leaderboardButton = new System.Windows.Forms.Button();
             this.titleLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
 
             InitializeTitleLabel();
             InitializeStartButton();
+            InitializeLeaderboardButton();
             InitializeForm();
             LoadBackgroundImage();
             LoadIcon();
@@ -59,11 +62,25 @@ namespace SocobanLevels
             this.startButton.Click += new System.EventHandler(this.startButton_Click);
         }
 
+        private void InitializeLeaderboardButton()
+        {
+            this.leaderboardButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.leaderboardButton.Location = new System.Drawing.Point(550, 360);
+            this.leaderboardButton.Name = "leaderboardButton";
+            this.leaderboardButton.Size = new System.Drawing.Size(300, 80);
+            this.leaderboardButton.TabIndex = 3;
+            this.leaderboardButton.Text = "Таблица лидеров";
+            this.leaderboardButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.leaderboardButton.UseVisualStyleBackColor = true;
+            this.leaderboardButton.Click += new System.EventHandler(this.leaderboardButton_Click);
+        }
+
         private void InitializeForm()
         {
             this.ClientSize = new System.Drawing.Size(1024, 1024);
             this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.startButton);
+            this.Controls.Add(this.leaderboardButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = true;

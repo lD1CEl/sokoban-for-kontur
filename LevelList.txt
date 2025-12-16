@@ -1,144 +1,983 @@
-1 10 8
+﻿1 10 8
 WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
+W   S    W
+W      B W
 W        W
-WP   S  PW
-WWWWWWWWWW
+W        W
+W P      W
+W        W
+WWWWWWWWWW      
 2 10 8
 WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
+W   S    W
+W      B W
 W        W
-WP   S  PW
-WWWWWWWWWW
-3 10 8
-WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
 W        W
-WP   S  PW
-WWWWWWWWWW
-4 10 8
-WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
+W P      W
 W        W
-WP   S  PW
-WWWWWWWWWW
-6 10 8
-WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
-W        W
-WP   S  PW
-WWWWWWWWWW
-7 30 8
-WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-WP                          PW
-W   B B                      W
-WC                           W
-W   B B                      W
-W                            W
-WP   S                      PW
-WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-8 10 8
-WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
-W        W
-WP   S  PW
-WWWWWWWWWW
-9 10 8
-WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
-W        W
-WP   S  PW
-WWWWWWWWWW
-10 10 8
-WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
-W        W
-WP   S  PW
-WWWWWWWWWW
-11 10 8
-WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
-W        W
-WP   S  PW
-WWWWWWWWWW
-12 10 8
-WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
-W        W
-WP   S  PW
-WWWWWWWWWW
-13 10 8
-WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
-W        W
-WP   S  PW
-WWWWWWWWWW
-14 10 8
-WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
-W        W
-WP   S  PW
-WWWWWWWWWW
-15 10 8
-WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
-W        W
-WP   S  PW
-WWWWWWWWWW
-16 10 8
-WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
-W        W
-WP   S  PWч
-WWWWWWWWWW
-17 10 8
-WWWWWWWWWW
-WP      PW
-W   B B  W
-WC       W
-W   B B  W
-W        W
-WP   S  PW
-WWWWWWWWWW
+WWWWWWWWWW  
+3 17 10
+        WWWWWWWW 
+        W     SW 
+        W BWB WW 
+        W B  BW  
+        WWB B W  
+WWWWWWWWW B W WWW
+WPPPP  WW B  B  W
+WWPPP    B  B   W
+WPPPP  WWWWWWWWWW
+WWWWWWWW         
+4 22 13
+              WWWWWWWW
+              W  PPPPW
+   WWWWWWWWWWWW  PPPPW
+   W    W  B B   PPPPW
+   W BBBWB  B W  PPPPW
+   W  B     B W  PPPPW
+   W BB WB B BWWWWWWWW
+WWWW  B W     W       
+W   W WWWWWWWWW       
+W    B  WW            
+W BBWBB SW            
+W   W   WW            
+WWWWWWWWW             
+5 17 13
+        WWWWW    
+        W   WWWWW
+        W WBWW  W
+        W     B W
+WWWWWWWWW WWW   W
+WPPPP  WW B  BWWW
+WPPPP    B BB WW 
+WPPPP  WWB  B SW 
+WWWWWWWWW  B  WW 
+        W B B  W 
+        WWW WW W 
+          W    W 
+          WWWWWW 
+6 12 11
+WWWWWW  WWW 
+WPP  W WWSWW
+WPP  WWW   W
+WPP     BB W
+WPP  W W B W
+WPPWWW W B W
+WWWW B WB  W
+   W  BW B W
+   W B  B  W
+   W  WW   W
+   WWWWWWWWW
+7 13 12
+       WWWWW 
+ WWWWWWW   WW
+WW W SWW BB W
+W    B      W
+W  B  WWW   W
+WWW WWWWWBWWW
+W B  WWW PPW 
+W B B B PPPW 
+W    WWWPPPW 
+W BB W WPPPW 
+W  WWW WWWWW 
+WWWW         
+8 16 17
+  WWWW          
+  W  WWWWWWWWWWW
+  W    B   B B W
+  W BW B W  B  W
+  W  B B  W    W
+WWW BW W  WWWW W
+WSWB B B  WW   W
+W    B WBW   W W
+WW  B    B B B W
+ WWWW  WWWWWWWWW
+  WWW  WWW      
+  W      W      
+  W      W      
+  WPPPPPPW      
+  WPPPPPPW      
+  WPPPPPPW      
+  WWWWWWWW      
+9 17 18
+          WWWWWWW
+          W  PPPW
+      WWWWW  PPPW
+      W      PPPW
+      W  WW  PPPW
+      WW WW  PPPW
+     WWW WWWWWWWW
+     W BBB WW    
+ WWWWW  B B WWWWW
+WW   WB B   W   W
+WS B  B    B  B W
+WWWWWW BB B WWWWW
+     W B    W    
+     WWWW WWW    
+        W  W     
+        W  W     
+        W  W     
+        WWWW     
+10 21 20
+              WWWW   
+         WWWWWW  W   
+         W       W   
+         W  WWWW WWW 
+ WWW  WWWWW WWW    W 
+WWSWWWW   BBB W    W 
+W BB   BB B   WPPPPWW
+W  BBBW    B  WPPPPPW
+W B   W BB BB WPPPPPW
+WWW   W  B    WPPPPPW
+  W   W B B B WPPPPPW
+  W WWWWWWW WWWPPPPPW
+  W   W  B B  WPPPPPW
+  WWW W BB B BWWWWWWW
+    W W  B      W    
+    W W BBB BBB W    
+    W W       W W    
+    W WWWWWWWWW W    
+    W           W    
+    WWWWWWWWWWWWW    
+11 19 15
+          WWWW     
+     WWWW W  W     
+   WWW  WWWB W     
+  WW   S  B  W     
+ WW  B BBWW WW     
+ W  WBWW     W     
+ W W B BB W WWW    
+ W   B W  W B WWWWW
+WWWW    W  BB W   W
+WWWW WW B         W
+WP    WWW  WWWWWWWW
+WPP PPW WWWW       
+WPPPWPW            
+WPPPPPW            
+WWWWWWW            
+12 13 16
+  WWWWWWWWW  
+  W&P&W&P&W  
+  WP&P&P&PW  
+  W&P&P&P&W  
+  WP&P&P&PW  
+  W&P&P&P&W  
+  WWW   WWW  
+    W   W    
+WWWWWW WWWWWW
+W           W
+W B B B B B W
+WW B B B B WW
+ WB B B B BW 
+ W   BSB   W 
+ W  WWWWW  W 
+ WWWW   WWWW 
+13 20 13
+    WWWWWWWWW       
+  WWW   WW  WWWWW   
+WWW      W  W   WWWW
+W  BB WB W  W  PPP W
+W W  BWSBWW W WPWP W
+W  WW WB  W    PPP W
+W BW    B W W WPWP W
+W    WW  WWB B PPP W
+W B WW   W  WBWPWP W
+WW BB  B   B  BPPP W
+ WB  WWWWWW    WW  W
+ W   W    WWWWWWWWWW
+ WWWWW              
+14 17 13
+WWWWWWWWWWWWWWWW 
+W              W 
+W W WWWWWW     W 
+W W  B B B BW  W 
+W W   BSB   WW WW
+W W WB B BWWWPPPW
+W W   B B  WWPPPW
+W WWWBBB B WWPPPW
+W     W WW WWPPPW
+WWWWW   WW WWPPPW
+    WWWWW     WWW
+        W     W  
+        WWWWWWW  
+15 17 17
+       WWWW      
+    WWWW  W      
+   WW  W  W      
+   W  B B W      
+ WWW WB   WWWW   
+ W  B  WWB   W   
+ W  W S B W BW   
+ W  W      B WWWW
+ WW WWWWBWW     W
+ W BWPPPPPW W   W
+ W  BPPP&P BW WWW
+WW  WPPPPPW   W  
+W   WWW WWWWWWW  
+W BB  W  W       
+W  W     W       
+WWWWWW   W       
+     WWWWW       
+16 14 15
+WWWWW         
+W   WW        
+W    W  WWWW  
+W B  WWWW  W  
+W  BB B   BW  
+WWWS WB    WW 
+ W  WW  B B WW
+ W B  WW WW PW
+ W  WBWWB  WPW
+ WWW   BPPWWPW
+  W    WP&PPPW
+  W BB WPPPPPW
+  W  WWWWWWWWW
+  W  W        
+  WWWW        
+17 18 16
+       WWWWWWW    
+ WWWWWWW     W    
+ W     W BSB W    
+ WBB W   WWWWWWWWW
+ W WWWPPPPPPWW   W
+ W   BPPPPPPWW W W
+ W WWWPPPPPP     W
+WW   WWWW WWW WBWW
+W  WB   W  B  W W 
+W  B BBB  W BWW W 
+W   B B WWWBB W W 
+WWWWW     B   W W 
+    WWW WWW   W W 
+      W     W   W 
+      WWWWWWWW  W 
+             WWWW 
+18 22 13
+      WWWWWWWWWWWW    
+      W  P  WW   W    
+      W WP     S W    
+ WWWWWW WWPPPW WWWW   
+WW  WWPPPWWWW     WWWW
+W B WWPPP    B W  B  W
+W     PP WW W WW WW  W
+WWWWBWWWBW B  W   W WW
+ WWW  W    WWB BB W W 
+ W   BB W W B W BWW W 
+ W                  W 
+ WWWWWWWWWWWWWWWWW  W 
+                 WWWW 
+19 28 20
+        WWWWWW              
+        W   SWWWW           
+      WWWWW B   W           
+      W   WW    WWWW        
+      W BWW  WW    W        
+      W   W  WWWWW W        
+      W WBB B    W W        
+      W  B B WWW W W        
+      W W   B  W W W        
+      W W  WBW   W W        
+     WW WWWW   W W W        
+     W  B  WWWWW W W WWWW   
+    WW    B     B  WWW  WWWW
+WWWWW  WWW B BW B W   PPPPPW
+W     WW      W  WW  WPPPPPW
+W BBBB    WWWWWWBWW   WPWWPW
+WW    WW              WPPPPW
+ WW  WWWWWWWWWWWWWWW   PPPPW
+  W  W             WWWWW  WW
+  WWWW                 WWWW 
+20 20 20
+       WWWWWWWWWWWW 
+       WPPPPPPPPPPW 
+     WWWPWPWPWPWPPW 
+     W   PPPPPPPPPW 
+     WS B B B &P&PW 
+    WWWWWWW WWWWWWW 
+ WWWW   W    WW  W  
+WW    B W    W B WW 
+W  WBW WWW WWWB   WW
+W B  B B   W B B B W
+W  W B WW       WB W
+W   BWWWWBWWWWBWW  W
+WWWW  WW   W    W  W
+   WB WW   W W BB  W
+   W   W B W  B    W
+   WWW W BB W  B WWW
+     W W    W B WW  
+     W WWWWWWWW W   
+     W          W   
+     WWWWWWWWWWWW   
+21 16 14
+   WWWWWWWWWW   
+   WPP  W   W   
+   WPP      W   
+   WPP  W  WWWW 
+  WWWWWWW  W  WW
+  W            W
+  W  W  WW  W  W
+WWWW WW  WWWW WW
+W  B  WWWWW W  W
+W W B  B  W B  W
+W SB  B   W   WW
+WWWW WW WWWWWWW 
+   W    W       
+   WWWWWW       
+22 22 20
+            WWWW      
+ WWWWWWWWWWWW  WWWWW  
+ W    W  W  B  W   WW 
+ W B B B  B W B B   W 
+ WWB B   W SW B   B W 
+WWW   WWWWWWWWWWWW WW 
+W  B BW  WPPPPPPW BW  
+W W   W  WPPPPPPWW W  
+W  WW WW W PPPPPW  W  
+W W      BPPPPPP B W  
+W W B WW WPPPPPPW  W  
+W  B BW  WPPPPPPW BW  
+W B   W  WWBWWWWW  W  
+W B B WWWW B B  B BW  
+WW W     B B B B   WWW
+ W  WWWWWW B    B    W
+ W         W WWWWWWW W
+ WWWWWWW WB          W
+       W   WWWWWWWWWWW
+       WWWWW          
+23 25 14
+       WWWWWWW           
+       W  W  WWWW        
+       W BWB W  WW       
+WWWWWWWW  W  W   WWWWWWWW
+WPPPP  W BWB W  BW  W   W
+WPPPPW W     WB  W      W
+WPPWP    BW  W B    WB  W
+WPPP SWW  WB WB  W  W   W
+WPPPP WW BW     BWWWWWWWW
+WWWWWWWW  WBBWB  W       
+       W BW  W  BW       
+       W  W  W   W       
+       WWWW  WWWWW       
+          WWWW           
+24 21 19
+   WWWWWWWWWW        
+   WPPPPPPPPWWWW     
+   WPWPWPPPPW  W     
+   WPPPPPPPPBB W     
+   W     PWWW  WWWW  
+ WWWWWWWWW  B W   W  
+ W     B   B B  B W  
+ W  W    W  B BW  W  
+ WW WWWWW   W  W  W  
+ W B     W   WWWW W  
+WW  BW   W WW  W  W  
+W    WWBWWW    W  WW 
+W B    B W  W  W   W 
+WWWWW    W WW W WW WW
+    WBW W  B  B B   W
+    WSW  BWBBB  W   W
+    WWW  B      WWWWW
+      WW  W  W  W    
+       WWWWWWWWWW    
+25 23 17
+               WWWW    
+          WWWWWW  WWWWW
+    WWWWWWW       W   W
+    W      B B WW W W W
+    W  WWWW B  W     PW
+    W      B W W WWPWPW
+    WWBWWWWB B B WWPWPW
+    W     W    WWWWPWWW
+    W B   WWWWWW  WPWPW
+WWWWWWBBBWW      SWPWPW
+W      W    WBWBWWWP PW
+W WWWW WBBBBB    W PPPW
+W W    B     W   W PPPW
+W W   WW WW     WWWPPPW
+W WWWWWWBWWWWWW  WWWWWW
+W        W    W  W     
+WWWWWWWWWW    WWWW     
+26 15 15
+WWWWWWWWW      
+W       W      
+W       WWWW   
+WW WWWW W  W   
+WW WSWW    W   
+W BBB B  BBW   
+W  W WW B  W   
+W  W WW  B WWWW
+WWWW  BBB BW  W
+ W   WW   PPPPW
+ W W   W WPP PW
+ W   W W WWPPPW
+ WWWWW B  WPPPW
+     WW   WWWWW
+      WWWWW    
+27 23 13
+ WWWWWWWWWWWWWWWWW     
+ WPPP   W    W   WWW   
+WWPPPPP  BWW W W B W   
+WPPPPPPW  B  W  B  W   
+WPPPPPPW  W  W W W WW  
+WWWWWWWWW B  B W W  WWW
+  W     WBWWB WW WW   W
+ WW   B    W B  B   W W
+ W  WW WWW W  WWWWWBW W
+ W B BB     B   B     W
+ W B    BWWB WWWWWWWW W
+ WWWWWWW  S WW      WWW
+       WWWWWW          
+28 15 17
+     WWWWWWW   
+     WS W  W   
+     W B   W   
+    WWW WW W   
+ WWWW B  W WW  
+ W       W  WW 
+ W B BWWWW B W 
+ W BB W  W  BW 
+ WB  B   WB  W 
+WW  BBW   BB WW
+W BB  W  W  B W
+W     WWWW B  W
+W  WBWWPPWW   W
+WWW PWPPPPWWWWW
+  W PPPPPPPWW  
+  WPPPP   PPW  
+  WWWWWWWWWWW  
+29 24 11
+                WWWWW   
+       WWWWWW WWW   WWWW
+   WWWWW    WWW B B  B W
+WWWW  WW WB B    B W   W
+WPPPP   BB B B  B   WBWW
+WPP W WW W   WWWBWW W  W
+WPPPP    W WWW    W    W
+WPPPP    W WW  B  WWWB W
+WPPWWWWWW  B  W  WWWW WW
+WWWW    W   WWW    S  W 
+        WWWWWWWWWWWWWWW 
+30 14 20
+ WWWWW        
+ W   WWWWWWW  
+ W B WWW   W  
+ W B    BB W  
+ WW WWWW   W  
+WWW W  W WWW  
+W   W  WSWW   
+W BB    B W   
+W   W W B WWWW
+WWWWW W   W  W
+ W   BWWWW   W
+ W  B     B  W
+ WW   WWWWW WW
+ WWWWWWWWWW  W
+WWPPPPW B  B W
+WPPPPPW BBW  W
+WPP PPW B  B W
+WPPPPPB   W  W
+WW  WWWWWWWWWW
+ WWWW         
+31 15 12
+ WWWWWWW       
+ W  W  WWWWW   
+WW  W  WPPPWWW 
+W  BW  WPPP  W 
+W B WBB PPP  W 
+W  BW  WPPP PW 
+W   W BWWWWWWWW
+WWB       B B W
+WW  W  BB W   W
+ WWWWWW  WWBBSW
+      W      WW
+      WWWWWWWW 
+32 18 16
+  WWWW            
+  W  WWWWWWWWW    
+ WW  WW SW   W    
+ W  BW B B   WWWW 
+ WB  B  W B BW  WW
+WW  BWW WB B     W
+W  W  W W   BBB  W
+W B    B  BWW WWWW
+W B B WBW  W  W   
+WW  WWW  WWWB W   
+ W  WPPPP     W   
+ WWWWPPPPPPWWWW   
+   WPPPPWWWW      
+   WPPPWW         
+   WPPPW          
+   WWWWW          
+33 13 15
+      WWWW   
+  WWWWW  W   
+ WW     BW   
+WW B  WW WWW 
+WSB B W B  W 
+WWWW WW   BW 
+ WPPPPWB B W 
+ WPPPPW   BW 
+ WPPPP  BB WW
+ WPPP W B   W
+ WWWWWWB B  W
+      W   WWW
+      WB WWW 
+      W  W   
+      WWWW   
+34 12 15
+WWWWWWWWWWWW
+WW     WW  W
+WW   B   B W
+WWWW WW BB W
+W   B W    W
+W BBB W WWWW
+W   W W B WW
+W  W  W  B W
+W BW BW    W
+W   PPW WWWW
+WWWWPP B WSW
+WPPPPPW BW W
+WWPPPPW  B W
+WWWPPWW    W
+WWWWWWWWWWWW
+35 20 16
+WWWWWWWWWWWW  WWWWWW
+W   W    WSWWWWPPPPW
+W   BBW       PPPPPW
+W   W WWW   WW PPPPW
+WW WW WWW  W   PPPPW
+ W B B     W WW WWWW
+ W  B BWW  W       W
+WWWW W  WWWW WW WW W
+W  W WB   WW WW    W
+W B  B  W WW WWWWWWW
+W W B B    W W      
+W  B WW WW W W      
+W BB     BB  W      
+WW WW WWW B  W      
+ W    W W    W      
+ WWWWWW WWWWWW      
+36 18 19
+     WWWW         
+   WWW  WW        
+WWWW  B  W        
+W   B B  WWWW     
+W B   W B   W WWWW
+W  W  W   B W WPPW
+WWBWB WWWWBWWWWPPW
+ W   WWWWW WW PPPW
+ WBW WWSWW WW  PPW
+ W W    B     PPPW
+ W   WWWW WWW  PPW
+ WWW WW W  WW PPPW
+  WWB WWWWB WWWPPW
+  W   WW    W WPPW
+ WW BBWW  B W WWWW
+ W     BBBB W     
+ W B WWW    W     
+ W   W WWWWWW     
+ WWWWW            
+37 21 15
+WWWWWWWWWWW          
+WPPPPPP   WWWWWWWWW  
+WPPPPPP   W  WW   W  
+WPPWWW B    B     W  
+WPPP B B W  WWW   W  
+WPPPWBWWWWW    W  W  
+WWW    W   WB  W BWWW
+  W  BB B B  BWW  B W
+  W  B   WBW  WW    W
+  WWW WW W  B WWWWWWW
+   W  B B WW WW      
+   W    B  B  W      
+   WW   W W   W      
+    WWWWWSWWWWW      
+        WWW          
+38 14 15
+ WWWWWWWWW    
+ WPPPP   WW   
+ WPWPW  B WW  
+WWPPPPW W SWW 
+W PPPPW  W  WW
+W     WB WWB W
+WW WWW  B    W
+ WB  B B BW  W
+ W W  B B WW W
+ W  WWW  WW  W
+ W    WW WW WW
+ W  B W  B  W 
+ WWWB B   WWW 
+   W  WWWWW   
+   WWWW       
+39 23 18
+              WWW      
+             WWPWWW    
+             WPPPPW    
+ WWWWWWWWWWWWWPPPPW    
+WW   WW     WWPPPPWWWWW
+W  BBWW  B SWWPPPP    W
+W      BB BW  PPPPW   W
+W  B WW BB W WPPPPW  WW
+W  B WW B  W WW WWW  W 
+WW WWWWW WWW         W 
+WW   B  B WWWWW WWW  W 
+W BWWW  W WWWWW W WWWW 
+W   B   W       W      
+W  B WB B BWWW  W      
+W BBBW B   W WWWW      
+W    W  BB W           
+WWWWWW   WWW           
+     WWWWW             
+40 11 11
+      WWWW 
+WWWWWWW SW 
+W     B  W 
+W   BWW BW 
+WWBWPPPW W 
+ W BPPP  W 
+ W WP PW WW
+ W   W WB W
+ WB  B    W
+ W  WWWWWWW
+ WWWW      
+41 20 15
+           WWWWW    
+          WW   WW   
+         WW     W   
+        WW  BB  W   
+       WW BB  B W   
+       W B    B W   
+WWWW   W   BB WWWWW 
+W  WWWWWWWW WW    W 
+WPP           BBBSW 
+WPW WWWWWWW WW   WW 
+WPW WWWWWWWP WB BWWW
+WPPPPPPPPPPP W   B W
+WWWWWWWWWWWWWW  B  W
+             WW  WWW
+              WWWW  
+42 13 18
+ WWWWWWWW    
+ WSWW   WWWW 
+ W B   B   W 
+ W  B B BBBW 
+ W BBW W   W 
+WWB    B   W 
+W  B  BBBBBWW
+W BWWWW W   W
+W  BPPPPW   W
+W WWPPPPWBB W
+W WWPPPP   WW
+W   PPPPW  W 
+WW WPPPPWBBW 
+ W WPPPPW  W 
+ W         W 
+ WWWW WWBWWW 
+    W    W   
+    WWWWWW   
+43 17 16
+    WWWWWWWWWWWW 
+    W          WW
+    W  W WBB B  W
+    WB WBW  WW SW
+   WW WW W B W WW
+   W   B WB  W W 
+   W   W B   W W 
+   WW B B   WW W 
+   W  W  WW  B W 
+   W    WW BBW W 
+WWWWWWBB   W   W 
+WPPPPW  WWWWWWWW 
+WPWPPP WW        
+WPPPP   W        
+WPPPP   W        
+WWWWWWWWW        
+44 25 19
+      WWWWWW             
+   WWWWW   W             
+   W   W W WWWWW         
+   W B W  B    WWWWWW    
+  WWB  WWW WW       W    
+WWW  BB B B W  WW   WWWWW
+W       B   WWWWWW WW   W
+W  WWWWWWWW WS   W W  W W
+WW WWW      WWWW WBW W  W
+ W WWW WWWW WWPP W   B WW
+ W  B  B  WBWWPP WBWW  WW
+ W  W W W     PPWW WW B W
+ WWWW   W WW WPPW    B  W
+    WWWWW    WPPW W W  WW
+        WWWWWWPPW   W WW 
+             WPPWWWWW  W 
+             WPP       W 
+             WW  WWW  WW 
+              WWWWWWWWW  
+45 19 11
+        WWWWWWW    
+    WWWWW  W  WWWW 
+    W   W   B    W 
+ WWWW WBB WW WW  W 
+WW      W W  WW WWW
+W  WWW BWB  B  B  W
+WPPP    W WW  W   W
+WPPPW    S W WWW WW
+WPPPW  WWW  B  B  W
+WWWWWWWW WW   W   W
+          WWWWWWWWW
+46 22 17
+    WWWWWWWWW  WWWW   
+    W   WW  WWWW  W   
+    W   B   W  B  W   
+    W  W WW W     WWWW
+    WW B   B BBW W   W
+    WWWW  W  W B B   W
+WWWWW  WWWW    WWWPPPW
+W   WB W  W WWWWPPPPPW
+W      W  W W WWPPPPPW
+WWWWWW W  WB   WWWPPPW
+   W   WW W BW   WPPPW
+  WW       B  BW WWWWW
+ WW BBBWW  W B   W    
+ W   W  W WWW  WWW    
+ W   B  WB SWWWW      
+ WWWWW  W   W         
+     WWWWWWWW         
+47 19 15
+ WWWWW             
+ W   W             
+ W W WWWWWW        
+ W      BSWWWWWW   
+ W B WWB WWW   W   
+ W WWWW B    B W   
+ W WWWWW W  WB WWWW
+WW  WWWW WWB      W
+W  BW  B  W WW WW W
+W         W WPPPW W
+WWWWWW  WWW  PPP  W
+     WWWW W WPPPW W
+          W WWW W W
+          W       W
+          WWWWWWWWW
+48 16 15
+       WWWW     
+       W  WW    
+       W   WW   
+       W BB WW  
+     WWWB  B WW 
+  WWWW    B   W 
+WWW  W WWWWW  W 
+W    W WPPPPB W 
+W W   B PPPPW W 
+W  B W WP&PPW W 
+WWW  WWWW WWW W 
+  WWWW SB  WWBWW
+     WWW B     W
+       W  WW   W
+       WWWWWWWWW
+49 19 16
+      WWWWWWWWWWWW 
+     WWPP    W   W 
+    WWPP& B    B W 
+   WWPP&PW W WB WW 
+   WPP&PW W W B  W 
+WWWWPPPW  W    W W 
+W  WW W          W 
+W SB B WWW  W W WW 
+W B   B   W W   W  
+WWWBB   W W W W W  
+  W   B   W W WWWWW
+  W BW WWWWW      W
+  WB   W   W   W  W
+  W  WWW   WW     W
+  W  W      W    WW
+  WWWW      WWWWWW 
+50 21 16
+     WWWWWWWWWWWWW   
+     W    WWW    W   
+     W     B B  WWWW 
+   WWWW W   B B    W 
+  WW B  WBWWWW B B W 
+WWW   W W   WWW  B W 
+W B  B  W  B  W WWWW 
+W WWBWWWW WBW  B  WWW
+W WW  WWW W W W  B  W
+W    SB   B   W B W W
+WWWWW  W  WW  W BW  W
+  WPPP WWWWWB  W  W W
+  WPPPPPPPW BB WB W W
+  WPPPPPPPW         W
+  WPPPPPPPWWWWWWW  WW
+  WWWWWWWWW     WWWW 
+51 16 14
+WWWWW WWWW      
+WPPPW W  WWWW   
+WPPPWWW  B  W   
+WPPPPWW B  BWWW 
+WWPPPPWW   B  W 
+WWWPPP WW B B W 
+W WW    W  B  W 
+W  WW W WWW WWWW
+W B W WB  B    W
+W  B S B    B  W
+W   W B BB B WWW
+W  WWWWWW  WWW  
+W WW    WWWW    
+WWW             
+52 21 14
+ WWWW                
+WW  WWWWW            
+W       W WWWWW      
+W BWWW  WWW   W      
+WPPW  BW W  W W      
+WPPW      BBW WWW    
+WP&W W  WB B    WWWWW
+WPPW  WW     WWBW   W
+WP&B  B W WW  B     W
+WPPWW  B   W   WWWWWW
+WP&WWBWW   WWWWW     
+WPP  B WWWWW         
+W  W S W             
+WWWWWWWW             
+53 13 19
+   WWWWWWWWWW
+   W  WWW   W
+   W B   B  W
+   W  WWWWBWW
+   WW W  W  W
+  WW  WP&   W
+  W  WWPPW  W
+  W S WP&W WW
+  W WBWPPWB W
+  W B WPPW  W
+  W W W&&W  W
+  W B WPPWBWW
+  W    P&W  W
+ WWW  W  W  W
+WW    WWWW  W
+W  WWWWWWWBWW
+W B      B  W
+W  WW   W   W
+WWWWWWWWWWWWW
+54 23 20
+ WWWWWWWWWWWWWWWWWWWWW 
+ W   WW  W   W   W   W 
+ W B     B   B   B   WW
+WWWWW W  W   WWW WWBWWW
+W   W WWBWWWWWW   W   W
+W B   W PPPPPPW   W B W
+WW W  W PPPPPPWWWWW   W
+WW WWWWWWWWWPPW   W WWW
+W          WPPW B   W  
+W WW WWW WWWPPWW W  WWW
+W W   W   WWPPWW WWW  W
+W   S      BPPW       W
+W W   W   WW  W   WW  W
+WWWWW WWWWWWWWWWWWWW WW
+W          W   W    B W
+W B  W B B B   W W    W
+W WBWW BW  WW WW    W W
+W  B BB WWWW B  B W W W
+W          W   W      W
+WWWWWWWWWWWWWWWWWWWWWWW
+55 22 15
+ WWWWWWWWWWWWWWWWWWWWW
+WW                   W
+W    B W      WW W   W
+W  WWWWWW WWW  WBWW WW
+WWBW   WWBWPPPP   W W 
+W  W    B WPPPPWW W W 
+W B W W W WPPPPWW   W 
+W B WBB   WPPPPWWBW W 
+W W BSBWWBWPPPPWW   W 
+W   BBB   WPPPPW    W 
+W  BW   W WWWWWW BWWW 
+WW  W WWWBB  B   B W  
+WW     W B  B WW   W  
+ WWWWW   W   WWWWWWW  
+     WWWWWWWWW        
+56 14 16
+WWWWWWWWWW    
+W        WWWW 
+W WWWWWW W  WW
+W W B B B  B W
+W       WB   W
+WWWB  BBW  WWW
+  W  WW W BWW 
+  WWBW   B SW 
+   W  B B WWW 
+   W W   B  W 
+   W WW   W W 
+  WW  WWWWW W 
+  W         W 
+  WPPPPPPPWWW 
+  WPPPPPPPW   
+  WWWWWWWWW   
+57 18 11
+         WWWW     
+ WWWWWWWWW  WW    
+WW  B      B WWWWW
+W   WW WW   WWPPPW
+W WBB B BBWBWWPPPW
+W W    S  W   PPPW
+W  BW WWWBB   PPPW
+W B  BB  B WWPPPPW
+WWWB       WWWWWWW
+  W  WWWWWWW      
+  WWWW            
+58 27 20
+              WWWWWW       
+          WWWWW    W       
+          W  WW W  WWWWW   
+          W   &PWPPW   W   
+ WWWWW WWWW BWPWPPP    W   
+ W   WWW  WW W&PPPPWW WW   
+ W B      WW WPPWPPWW W    
+WWWWWW W   W W&PWWWWW W    
+W   W BWBW W WPPWWWWW W    
+W B  B     W W&P    W W    
+WW WW  B WWW W  WW  W W    
+ W  B  B WWW WWWWW WW W    
+ WWWBWWWBWWW  WWWW WW W    
+WWWW W         WWW  W W    
+W  B W  BWWWW  WWWBBWSWWWWW
+W      B W W  WWWW  WBW   W
+WWWW W  BW W              W
+   W  B  W WW  WW  WWWWWWWW
+   WW  WWW  WWWWWWWW       
+    WWWW                   
+59 29 20
+         WWWW                
+         W  W                
+         W  WWWWWWWW         
+   WWWWWWW  W      W         
+   W   W W W W W   WW        
+   W B     B  WW  B W        
+  WWW BW W  W W     WWWWWWWWW
+  W  B  W  BW W BB W   W W  W
+ WW W   W     WWW    B W W  W
+ W  WB   W WWW  W  W BBW W  W
+ W    BWW B  W   WW B  W W WW
+WWWWB B W    WW  W   B    PPW
+W  W    WWW W B B WWW  WWWP&W
+W     WW  BB S  B     WWPPPPW
+W  WW  WW   B  WBW  WWPPPP&PW
+WW W  B  W W BWW  WWPPPP&PWWW
+WW WW  B  W B W  WPPPP&PWWW  
+W    B WWWW   W PPPP&PWWW    
+W   W  W  W  W  PP&PWWW      
+WWWWWWWW  WWWWWWWWWWW        
+60 26 16
+        WWWWW             
+        W   WWWW          
+        W B    WWWW  WWWW 
+        W   W BW  WWWW  W 
+WWWWWWWWWWW W   B   W   W 
+WPP     W B  WWWW W  W  W 
+WPPB  W   B  W  B W B PWW 
+WP&W W B B WW  WW    WPW  
+WPPWB S W   WW    BB WPW  
+WPPW B B  B B WW   WW PW  
+WP&BB W WW   B WBW B WPW  
+WPPW      WW   W     WPW  
+WPPWWWWWWW  WWW WWWWWWPWW 
+W BB                  &PWW
+W  WWWWWWWWWWWWWWWWWW  PPW
+WWWW                WWWWWW

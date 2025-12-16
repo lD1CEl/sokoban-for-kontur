@@ -40,12 +40,14 @@ namespace SocobanLevels
             this.levelsPanel.Size = new System.Drawing.Size(1024, 1024);
             this.levelsPanel.TabIndex = 0;
             this.levelsPanel.AutoScroll = true;
+            this.levelsPanel.WrapContents = true;
         }
 
         private void InitializeForm()
         {
             this.ClientSize = new System.Drawing.Size(1024, 1024);
             this.Controls.Add(this.levelsPanel);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = true;
@@ -62,7 +64,7 @@ namespace SocobanLevels
                 if (System.IO.File.Exists(imgPath))
                 {
                     this.BackgroundImage = System.Drawing.Image.FromFile(imgPath);
-                    this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+                    this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
                 }
             }
             catch { }

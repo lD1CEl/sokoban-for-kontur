@@ -8,6 +8,7 @@ namespace SocobanLevels
         private StartPresenter _presenter;
 
         public event EventHandler StartGameRequested;
+        public event EventHandler LeaderboardRequested;
 
         public StartForm()
         {
@@ -20,6 +21,11 @@ namespace SocobanLevels
         private void startButton_Click(object sender, EventArgs e)
         {
             StartGameRequested?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void leaderboardButton_Click(object sender, EventArgs e)
+        {
+            LeaderboardRequested?.Invoke(this, EventArgs.Empty);
         }
 
         public void CloseView()
@@ -45,6 +51,7 @@ namespace SocobanLevels
             int newButtonLeft = labelCenterX - this.startButton.Width / 2;
             if (newButtonLeft < 0) newButtonLeft = 0;
             this.startButton.Left = newButtonLeft;
+            this.leaderboardButton.Left = newButtonLeft;
         }
     }
 }

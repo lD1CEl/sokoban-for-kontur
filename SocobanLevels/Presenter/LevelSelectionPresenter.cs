@@ -7,10 +7,12 @@ namespace SocobanLevels
     {
         private readonly ILevelSelectionView _view;
         private readonly LevelFile _levelFile;
+        private readonly string _playerName;
 
-        public LevelSelectionPresenter(ILevelSelectionView view)
+        public LevelSelectionPresenter(ILevelSelectionView view, string playerName = "Player")
         {
             _view = view;
+            _playerName = playerName;
             _levelFile = new LevelFile("LevelList.txt");
             _view.LevelSelected += OnLevelSelected;
         }
@@ -24,7 +26,7 @@ namespace SocobanLevels
         private void OnLevelSelected(object sender, int levelNumber)
         {
             _view.HideView();
-            IMainView gameView = new SocobanLevels(levelNumber);
+            IMainView gameView = new SocobanLevels(levelNumber, _playerName);
             ((System.Windows.Forms.Form)gameView).FormClosed += (s, args) => 
             {
                 _view.ShowView();

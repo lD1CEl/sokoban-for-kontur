@@ -10,10 +10,14 @@ namespace SocobanLevels
         private bool[,] _targets;
         private int _playerX;
         private int _playerY;
+        private int _moveCount;
+        private DateTime _startTime;
 
         public int Width => _width;
         public int Height => _height;
         public Cell[,] Grid => _grid;
+        public int MoveCount => _moveCount;
+        public TimeSpan ElapsedTime => DateTime.Now - _startTime;
 
         public event EventHandler StateChanged;
         public event EventHandler LevelCompleted;
@@ -24,6 +28,7 @@ namespace SocobanLevels
             _height = initialGrid.GetLength(1);
             _grid = new Cell[_width, _height];
             _targets = new bool[_width, _height];
+            _startTime = DateTime.Now;
 
             InitializeGrid(initialGrid);
         }
@@ -77,12 +82,14 @@ namespace SocobanLevels
             {
                 if (TryPushBox(newX, newY, dx, dy))
                 {
+                    _moveCount++;
                     MovePlayer(newX, newY);
                     CheckCompletion();
                 }
             }
             else
             {
+                _moveCount++;
                 MovePlayer(newX, newY);
             }
         }

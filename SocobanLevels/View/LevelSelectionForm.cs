@@ -12,11 +12,14 @@ namespace SocobanLevels
 
         public event EventHandler<int> LevelSelected;
 
-        public LevelSelectionForm()
+        private readonly string _playerName;
+
+        public LevelSelectionForm(string playerName = "Player")
         {
             InitializeComponent();
             LoadButtonBackground();
-            _presenter = new LevelSelectionPresenter(this);
+            _playerName = playerName;
+            _presenter = new LevelSelectionPresenter(this, _playerName);
             this.Load += (s, e) => _presenter.Initialize();
         }
 
@@ -35,6 +38,7 @@ namespace SocobanLevels
 
         public void SetLevels(List<int> levels)
         {
+            levelsPanel.SuspendLayout();
             levelsPanel.Controls.Clear();
 
             int buttonSize = 150;
@@ -50,6 +54,13 @@ namespace SocobanLevels
             if (sidePadding < 0) sidePadding = 0;
 
             levelsPanel.Padding = new Padding(sidePadding, 50, sidePadding, 50);
+
+            int rows = (int)Math.Ceiling(levels.Count / (double)columns);
+            int contentHeight = rows * itemFullWidth + levelsPanel.Padding.Vertical;
+            int contentWidth = columns * itemFullWidth + levelsPanel.Padding.Horizontal;
+            levelsPanel.AutoScrollMinSize = new Size(
+                Math.Max(contentWidth, levelsPanel.ClientSize.Width),
+                Math.Max(contentHeight, levelsPanel.ClientSize.Height));
 
             foreach (var level in levels)
             {
@@ -71,6 +82,8 @@ namespace SocobanLevels
                 btn.Click += (s, e) => LevelSelected?.Invoke(this, (int)((Button)s).Tag);
                 levelsPanel.Controls.Add(btn);
             }
+
+            levelsPanel.ResumeLayout();
         }
 
         public void ShowView()

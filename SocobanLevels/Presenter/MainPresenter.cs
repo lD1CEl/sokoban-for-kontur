@@ -7,12 +7,16 @@ namespace SocobanLevels
         private readonly IMainView _view;
         private readonly LevelFile _levelFile;
         private readonly int _levelNumber;
+        private readonly string _playerName;
+        private readonly StatsManager _statsManager;
         private GameModel _gameModel;
 
-        public MainPresenter(IMainView view, int levelNumber)
+        public MainPresenter(IMainView view, int levelNumber, string playerName = "Player")
         {
             _view = view;
             _levelNumber = levelNumber;
+            _playerName = playerName;
+            _statsManager = new StatsManager();
             _view.ViewLoaded += OnViewLoaded;
             _view.InputReceived += OnInputReceived;
             _levelFile = new LevelFile("LevelList.txt");
@@ -38,7 +42,7 @@ namespace SocobanLevels
             {
                 _gameModel = new GameModel(grid);
                 _gameModel.StateChanged += (s, e) => UpdateView();
-                _gameModel.LevelCompleted += (s, e) => _view.ShowLevelCompleted();
+                _gameModel.LevelCompleted += OnLevelCompleted;
                 UpdateView();
             }
             else
@@ -47,11 +51,21 @@ namespace SocobanLevels
             }
         }
 
+        private void OnLevelCompleted(object sender, EventArgs e)
+        {
+            if (_gameModel != null)
+            {
+                _statsManager.AddLevelCompletion(_levelNumber, _playerName, _gameModel.MoveCount, _gameModel.ElapsedTime);
+            }
+            _view.ShowLevelCompleted();
+        }
+
         private void UpdateView()
         {
             if (_gameModel != null)
             {
                 _view.RenderLevel(_gameModel.Grid, _gameModel.Width, _gameModel.Height);
+                _view.UpdateMoveCounter(_gameModel.MoveCount);
             }
         }
     }
