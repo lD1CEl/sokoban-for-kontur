@@ -54,7 +54,7 @@ namespace SocobanLevels
             _moveCounterLabel.ForeColor = Color.White;
             _moveCounterLabel.BackColor = Color.FromArgb(180, 0, 0, 0);
             _moveCounterLabel.Padding = new Padding(10, 5, 10, 5);
-            _moveCounterLabel.Text = "????: 0";
+            _moveCounterLabel.Text = "Шаги: 0";
             _moveCounterLabel.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             _moveCounterLabel.Location = new Point(this.ClientSize.Width - _moveCounterLabel.PreferredWidth - 10, 10);
             this.Controls.Add(_moveCounterLabel);
@@ -263,7 +263,7 @@ namespace SocobanLevels
     // Показать сообщение о завершении уровня
         public void ShowLevelCompleted()
         {
-            MessageBox.Show("??????? ???????!", "???????????", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Уровень пройден!", "Поздравляем", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
 
@@ -290,7 +290,7 @@ namespace SocobanLevels
         {
             if (_moveCounterLabel != null)
             {
-                _moveCounterLabel.Text = $"????: {moves}";
+                _moveCounterLabel.Text = $"Шаги: {moves}";
             }
         }
     }
