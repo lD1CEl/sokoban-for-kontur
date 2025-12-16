@@ -4,19 +4,24 @@ using System.Collections.Generic;
 
 namespace SocobanLevels
 {
+    // Класс для работы с файлом уровней
     public class LevelFile
     {
         private readonly string _fileName;
 
+        // Конструктор
+        // <param name="fileName">Путь к файлу с уровнями</param>
         public LevelFile(string fileName)
         {
             _fileName = fileName;
         }
 
+        // Получить список номеров доступных уровней
+        // <returns>Список номеров уровней</returns>
         public List<int> GetLevelNumbers()
         {
             var levelNumbers = new List<int>();
-            string[] lines = ReadFileLines();
+            var lines = ReadFileLines();
             if (lines == null) return levelNumbers;
 
             int currentLineIndex = 0;
@@ -35,9 +40,12 @@ namespace SocobanLevels
             return levelNumbers;
         }
 
+        // Загрузить уровень по номеру
+        // <param name="levelNumber">Номер уровня</param>
+        // <returns>Сетка уровня</returns>
         public Cell[,] Load(int levelNumber)
         {
-            string[] lines = ReadFileLines();
+            var lines = ReadFileLines();
             if (lines == null) return null;
 
             int currentLineIndex = 0;
@@ -60,6 +68,8 @@ namespace SocobanLevels
             return null;
         }
 
+        // Чтение строк из файла
+        // <returns>Массив строк</returns>
         private string[] ReadFileLines()
         {
             try
@@ -72,6 +82,8 @@ namespace SocobanLevels
             }
         }
 
+        // Попытка прочитать заголовок уровня (номер, ширина, высота)
+        // <returns>true если заголовок успешно прочитан</returns>
         private bool TryReadLevelHeader(string line, out int levelNumber, out int width, out int height)
         {
             levelNumber = 0;
@@ -88,6 +100,7 @@ namespace SocobanLevels
                    int.TryParse(parts[2], out height);
         }
 
+        // Разбор сетки уровня из строк файла
         private Cell[,] ParseLevelGrid(string[] lines, int startLineIndex, int width, int height)
         {
             var grid = new Cell[width, height];
@@ -105,6 +118,7 @@ namespace SocobanLevels
             return grid;
         }
 
+        // Преобразование клетки в символ
          private char CellToLevelSymbol(Cell cell)
         {
             switch (cell)
@@ -119,6 +133,7 @@ namespace SocobanLevels
             }
         }
 
+        // Преобразование символа в клетку
         private Cell LevelSymbolToCell(char symbol)
         {
             switch (symbol)

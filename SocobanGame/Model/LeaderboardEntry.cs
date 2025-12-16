@@ -2,6 +2,7 @@ using System;
 
 namespace SocobanLevels
 {
+    // Класс для представления записи в таблице лидеров
     public class LeaderboardEntry
     {
         public string PlayerName { get; set; }

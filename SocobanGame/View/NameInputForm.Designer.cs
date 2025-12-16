@@ -2,6 +2,7 @@ using System;
 
 namespace SocobanLevels
 {
+    // Дизайнерская часть формы ввода имени
     partial class NameInputForm
     {
         private System.ComponentModel.IContainer components = null;
@@ -9,6 +10,7 @@ namespace SocobanLevels
         private System.Windows.Forms.TextBox nameTextBox;
         private System.Windows.Forms.Button confirmButton;
 
+        // Освобождение ресурсов формы
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -18,6 +20,7 @@ namespace SocobanLevels
             base.Dispose(disposing);
         }
 
+        // Инициализация компонентов формы
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
@@ -37,6 +40,7 @@ namespace SocobanLevels
             this.PerformLayout();
         }
 
+        // Инициализация подсказки для ввода имени
         private void InitializePromptLabel()
         {
             this.promptLabel.AutoSize = true;
@@ -50,6 +54,7 @@ namespace SocobanLevels
             this.promptLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
         }
 
+        // Инициализация поля ввода имени
         private void InitializeNameTextBox()
         {
             this.nameTextBox.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -60,6 +65,7 @@ namespace SocobanLevels
             this.nameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
         }
 
+        // Инициализация кнопки подтверждения
         private void InitializeConfirmButton()
         {
             this.confirmButton.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -72,6 +78,7 @@ namespace SocobanLevels
             this.confirmButton.Click += new System.EventHandler(this.confirmButton_Click);
         }
 
+        // Базовая настройка формы
         private void InitializeForm()
         {
             this.ClientSize = new System.Drawing.Size(1024, 1024);
@@ -86,6 +93,7 @@ namespace SocobanLevels
             this.Text = "Ввод имени";
         }
 
+        // Загрузка фонового изображения
         private void LoadBackgroundImage()
         {
             try
@@ -100,6 +108,7 @@ namespace SocobanLevels
             catch { }
         }
 
+        // Загрузка иконки приложения
         private void LoadIcon()
         {
             try

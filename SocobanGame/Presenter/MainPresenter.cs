@@ -2,6 +2,7 @@ using System;
 
 namespace SocobanLevels
 {
+    // Презентер главного окна игры - управляет логикой игры и взаимодействием с представлением
     public class MainPresenter
     {
         private readonly IMainView _view;
@@ -11,6 +12,10 @@ namespace SocobanLevels
         private readonly StatsManager _statsManager;
         private GameModel _gameModel;
 
+        // Конструктор презентера
+        // <param name="view">Представление</param>
+        // <param name="levelNumber">Номер уровня</param>
+        // <param name="playerName">Имя игрока</param>
         public MainPresenter(IMainView view, int levelNumber, string playerName = "Player")
         {
             _view = view;
@@ -22,11 +27,13 @@ namespace SocobanLevels
             _levelFile = new LevelFile("LevelList.txt");
         }
 
+        // Обработчик загрузки представления
         private void OnViewLoaded(object sender, EventArgs e)
         {
             LoadLevel(_levelNumber);
         }
 
+        // Обработчик ввода от пользователя
         private void OnInputReceived(object sender, Direction direction)
         {
             if (_gameModel != null)
@@ -35,6 +42,8 @@ namespace SocobanLevels
             }
         }
 
+        // Загрузка уровня
+        // <param name="levelNumber">Номер уровня</param>
         public void LoadLevel(int levelNumber)
         {
             var grid = _levelFile.Load(levelNumber);
@@ -51,6 +60,7 @@ namespace SocobanLevels
             }
         }
 
+        // Обработчик завершения уровня
         private void OnLevelCompleted(object sender, EventArgs e)
         {
             if (_gameModel != null)
@@ -60,6 +70,7 @@ namespace SocobanLevels
             _view.ShowLevelCompleted();
         }
 
+        // Обновление представления
         private void UpdateView()
         {
             if (_gameModel != null)

@@ -2,6 +2,7 @@ using System;
 
 namespace SocobanLevels
 {
+    // Модель игры - отвечает за логику игры Сокобан
     public class GameModel
     {
         private readonly int _width;
@@ -13,15 +14,36 @@ namespace SocobanLevels
         private int _moveCount;
         private DateTime _startTime;
 
-        public int Width => _width;
-        public int Height => _height;
-        public Cell[,] Grid => _grid;
-        public int MoveCount => _moveCount;
-        public TimeSpan ElapsedTime => DateTime.Now - _startTime;
+        public int Width 
+        { 
+            get { return _width; } 
+        }
+        
+        public int Height 
+        { 
+            get { return _height; } 
+        }
+        
+        public Cell[,] Grid 
+        { 
+            get { return _grid; } 
+        }
+        
+        public int MoveCount 
+        { 
+            get { return _moveCount; } 
+        }
+        
+        public TimeSpan ElapsedTime 
+        { 
+            get { return DateTime.Now - _startTime; } 
+        }
 
         public event EventHandler StateChanged;
         public event EventHandler LevelCompleted;
 
+        // Конструктор модели игры
+        // initialGrid - Начальная сетка уровня
         public GameModel(Cell[,] initialGrid)
         {
             _width = initialGrid.GetLength(0);
@@ -33,6 +55,8 @@ namespace SocobanLevels
             InitializeGrid(initialGrid);
         }
 
+        // Инициализация игрового поля и поиск позиции игрока
+        // initialGrid - Начальная сетка
         private void InitializeGrid(Cell[,] initialGrid)
         {
             for (int x = 0; x < _width; x++)
@@ -56,10 +80,12 @@ namespace SocobanLevels
             }
         }
 
+        // Движение игрока в указанном направлении
+        // direction - Направление движения
         public void Move(Direction direction)
         {
-            int dx = 0;
-            int dy = 0;
+            var dx = 0;
+            var dy = 0;
 
             switch (direction)
             {
@@ -69,8 +95,8 @@ namespace SocobanLevels
                 case Direction.Right: dx = 1; break;
             }
 
-            int newX = _playerX + dx;
-            int newY = _playerY + dy;
+            var newX = _playerX + dx;
+            var newY = _playerY + dy;
 
             if (!IsValidPosition(newX, newY)) return;
 
@@ -94,10 +120,12 @@ namespace SocobanLevels
             }
         }
 
+        // Попытка толкнуть ящик
+        // returns: true если ящик удалось толкнуть
         private bool TryPushBox(int boxX, int boxY, int dx, int dy)
         {
-            int nextX = boxX + dx;
-            int nextY = boxY + dy;
+            var nextX = boxX + dx;
+            var nextY = boxY + dy;
 
             if (!IsValidPosition(nextX, nextY)) return false;
 
@@ -112,6 +140,7 @@ namespace SocobanLevels
             return true;
         }
 
+        // Перемещение игрока на новую позицию
         private void MovePlayer(int newX, int newY)
         {
             _grid[_playerX, _playerY] = _targets[_playerX, _playerY] ? Cell.Point : Cell.Empty;
@@ -122,11 +151,14 @@ namespace SocobanLevels
             StateChanged?.Invoke(this, EventArgs.Empty);
         }
 
+        // Проверка корректности позиции
+        // returns: true если позиция в пределах поля
         private bool IsValidPosition(int x, int y)
         {
             return x >= 0 && x < _width && y >= 0 && y < _height;
         }
 
+        // Проверка завершения уровня (все ящики на целях)
         private void CheckCompletion()
         {
             for (int x = 0; x < _width; x++)

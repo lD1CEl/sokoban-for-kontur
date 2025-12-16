@@ -4,12 +4,14 @@ using System.Linq;
 
 namespace SocobanLevels
 {
+    // Презентер окна таблицы лидеров
     public class LeaderboardPresenter
     {
         private readonly ILeaderboardView _view;
         private readonly StatsManager _statsManager;
         private readonly string _playerName;
 
+        // Конструктор
         public LeaderboardPresenter(ILeaderboardView view, string playerName)
         {
             _view = view;
@@ -19,11 +21,13 @@ namespace SocobanLevels
             _view.LevelSelected += OnLevelSelected;
         }
 
+        // Обработчик загрузки представления
         private void OnViewLoaded(object sender, EventArgs e)
         {
             LoadLeaderboard();
         }
 
+        // Загрузка таблицы лидеров
         private void LoadLeaderboard()
         {
             _view.SetPlayerName(_playerName);
@@ -38,6 +42,7 @@ namespace SocobanLevels
             }
         }
 
+        // Обработчик выбора уровня для просмотра статистики
         private void OnLevelSelected(object sender, int levelNumber)
         {
             var entries = _statsManager.GetLeaderboardForLevel(levelNumber);

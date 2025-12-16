@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace SocobanLevels
 {
+    // Интерфейс окна таблицы лидеров
     public interface ILeaderboardView
     {
         event EventHandler ViewLoaded;

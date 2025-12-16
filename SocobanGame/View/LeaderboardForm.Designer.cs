@@ -4,6 +4,7 @@ using System.Windows.Forms;
 
 namespace SocobanLevels
 {
+    // Дизайнерская часть формы таблицы лидеров
     partial class LeaderboardForm
     {
         private System.ComponentModel.IContainer components = null;
@@ -13,6 +14,7 @@ namespace SocobanLevels
         private ComboBox levelComboBox;
         private Button closeButton;
 
+        // Освобождение ресурсов формы
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,6 +24,7 @@ namespace SocobanLevels
             base.Dispose(disposing);
         }
 
+        // Инициализация компонентов формы
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
@@ -43,6 +46,7 @@ namespace SocobanLevels
             this.ResumeLayout(false);
         }
 
+        // Инициализация метки имени игрока
         private void InitializePlayerNameLabel()
         {
             this.playerNameLabel.AutoSize = true;
@@ -55,6 +59,7 @@ namespace SocobanLevels
             this.playerNameLabel.Text = "Игрок:";
         }
 
+        // Инициализация метки количества пройденных уровней
         private void InitializeCompletedCountLabel()
         {
             this.completedCountLabel.AutoSize = true;
@@ -68,6 +73,7 @@ namespace SocobanLevels
             this.completedCountLabel.Text = "Пройдено уровней: 0";
         }
 
+        // Инициализация списка статистики
         private void InitializeStatsListView()
         {
             this.statsListView.Location = new Point(50, 140);
@@ -85,6 +91,7 @@ namespace SocobanLevels
             this.statsListView.Columns.Add("Время", 200);
         }
 
+        // Инициализация выбора уровня
         private void InitializeLevelComboBox()
         {
             this.levelComboBox = new ComboBox();
@@ -101,6 +108,7 @@ namespace SocobanLevels
             this.Controls.Add(this.levelComboBox);
         }
 
+        // Инициализация кнопки закрытия
         private void InitializeCloseButton()
         {
             this.closeButton.Location = new Point(412, 910);
@@ -117,6 +125,7 @@ namespace SocobanLevels
             this.closeButton.Click += (s, e) => this.Close();
         }
 
+        // Базовая настройка формы
         private void InitializeForm()
         {
             this.ClientSize = new Size(1024, 1024);
@@ -132,6 +141,7 @@ namespace SocobanLevels
             this.Text = "Таблица лидеров";
         }
 
+        // Загрузка фонового изображения
         private void LoadBackgroundImage()
         {
             try
@@ -146,6 +156,7 @@ namespace SocobanLevels
             catch { }
         }
 
+        // Загрузка иконки приложения
         private void LoadIcon()
         {
             try

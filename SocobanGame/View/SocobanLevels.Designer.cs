@@ -1,9 +1,11 @@
 namespace SocobanLevels
 {
+    // Дизайнерская часть главной формы игры
     partial class SocobanLevels
     {
         private System.ComponentModel.IContainer components = null;
 
+        // Освобождение ресурсов формы
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -13,6 +15,7 @@ namespace SocobanLevels
             base.Dispose(disposing);
         }
 
+        // Инициализация компонентов формы
         private void InitializeComponent()
         {
             this.SuspendLayout();

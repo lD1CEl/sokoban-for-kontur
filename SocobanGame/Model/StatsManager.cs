@@ -6,17 +6,20 @@ using System.Text.Json;
 
 namespace SocobanLevels
 {
+    // Менеджер для управления статистикой игры
     public class StatsManager
     {
         private readonly string _statsFilePath;
         private List<LevelStats> _allStats;
 
+        // Конструктор - загружает статистику из файла
         public StatsManager()
         {
             _statsFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "stats.json");
             LoadStats();
         }
 
+        // Загрузка статистики из JSON файла
         private void LoadStats()
         {
             try
@@ -37,6 +40,7 @@ namespace SocobanLevels
             }
         }
 
+        // Сохранение статистики в JSON файл
         private void SaveStats()
         {
             try
@@ -49,6 +53,7 @@ namespace SocobanLevels
             }
         }
 
+        // Добавление записи о прохождении уровня
         public void AddLevelCompletion(int levelNumber, string playerName, int steps, TimeSpan time)
         {
             var stat = new LevelStats(levelNumber, playerName, steps, time);
@@ -56,6 +61,7 @@ namespace SocobanLevels
             SaveStats();
         }
 
+        // Получение всей статистики игрока
         public List<LevelStats> GetPlayerStats(string playerName)
         {
             return _allStats
@@ -63,6 +69,7 @@ namespace SocobanLevels
                 .ToList();
         }
 
+        // Получение количества пройденных уровней
         public int GetCompletedLevelsCount(string playerName)
         {
             return _allStats
@@ -72,6 +79,7 @@ namespace SocobanLevels
                 .Count();
         }
 
+        // Получение лучшего результата игрока на конкретном уровне
         public LevelStats GetBestResult(int levelNumber, string playerName)
         {
             return _allStats
@@ -81,6 +89,7 @@ namespace SocobanLevels
                 .FirstOrDefault();
         }
 
+        // Получение списка всех уровней, которые кем-то пройдены
         public List<int> GetAllLevels()
         {
             return _allStats
@@ -90,6 +99,7 @@ namespace SocobanLevels
                 .ToList();
         }
 
+        // Получение всей статистики для конкретного уровня
         public List<LevelStats> GetStatsForLevel(int levelNumber)
         {
             return _allStats
@@ -99,6 +109,7 @@ namespace SocobanLevels
                 .ToList();
         }
 
+        // Получение таблицы лидеров для конкретного уровня
         public List<LeaderboardEntry> GetLeaderboardForLevel(int levelNumber)
         {
             var levelStats = _allStats
@@ -123,6 +134,7 @@ namespace SocobanLevels
             return entries;
         }
 
+        // Получение списка пройденных игроком уровней
         public List<int> GetCompletedLevels(string playerName)
         {
             return _allStats

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Drawing;
@@ -23,6 +23,7 @@ namespace SocobanLevels
 
         private readonly string _playerName;
 
+    // Конструктор главного окна игры
         public SocobanLevels(int levelNumber, string playerName = "Player")
         {
             InitializeComponent();
@@ -34,6 +35,7 @@ namespace SocobanLevels
             this.KeyPreview = true;
         }
 
+    // Инициализация панели для отображения игровой сетки
         private void InitializeGridPanel()
         {
             _gridPanel = new TableLayoutPanel();
@@ -43,6 +45,7 @@ namespace SocobanLevels
             this.Controls.Add(_gridPanel);
         }
 
+    // Инициализация счетчика ходов
         private void InitializeMoveCounter()
         {
             _moveCounterLabel = new Label();
@@ -51,13 +54,14 @@ namespace SocobanLevels
             _moveCounterLabel.ForeColor = Color.White;
             _moveCounterLabel.BackColor = Color.FromArgb(180, 0, 0, 0);
             _moveCounterLabel.Padding = new Padding(10, 5, 10, 5);
-            _moveCounterLabel.Text = "Ходы: 0";
+            _moveCounterLabel.Text = "????: 0";
             _moveCounterLabel.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             _moveCounterLabel.Location = new Point(this.ClientSize.Width - _moveCounterLabel.PreferredWidth - 10, 10);
             this.Controls.Add(_moveCounterLabel);
             _moveCounterLabel.BringToFront();
         }
 
+    // Загрузка изображений для игровых элементов
         private void LoadImages()
         {
             _images = new Dictionary<Cell, Image>();
@@ -71,6 +75,7 @@ namespace SocobanLevels
             _images[Cell.Empty] = LoadImage(Path.Combine(basePath, "Empty.png"));
         }
 
+    // Загрузка одного изображения по пути
         private Image LoadImage(string path)
         {
             if (File.Exists(path))
@@ -80,6 +85,7 @@ namespace SocobanLevels
             return null;
         }
 
+    // Обработка нажатий клавиш для управления игрой
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             switch (keyData)
@@ -92,17 +98,20 @@ namespace SocobanLevels
             return base.ProcessCmdKey(ref msg, keyData);
         }
 
+    // Обработчик события загрузки формы
         private void SocobanLevelsLoad(object sender, EventArgs e)
         {
             ViewLoaded?.Invoke(this, EventArgs.Empty);
         }
 
+    // Обработчик закрытия формы
         protected override void OnFormClosed(FormClosedEventArgs e)
         {
             base.OnFormClosed(e);
             ViewClosed?.Invoke(this, EventArgs.Empty);
         }
 
+    // Отрисовка игрового уровня на экране
         public void RenderLevel(Cell[,] grid, int width, int height)
         {
             int maxWidth = 1920;
@@ -220,6 +229,7 @@ namespace SocobanLevels
                 _gridPanel.ResumeLayout();
             }
 
+            // Обработчик изменения размера окна
             protected override void OnResize(EventArgs e)
             {
                 base.OnResize(e);
@@ -250,32 +260,37 @@ namespace SocobanLevels
                 }
             }
 
+    // Показать сообщение о завершении уровня
         public void ShowLevelCompleted()
         {
-            MessageBox.Show("Уровень пройден!", "Поздравляем", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("??????? ???????!", "???????????", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
 
+    // Показать сообщение об ошибке
         public void ShowError(string message)
         {
             MessageBox.Show(message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
+    // Закрыть форму
         public void CloseView()
         {
             this.Close();
         }
 
+    // Показать форму
         public void ShowView()
         {
             this.Show();
         }
 
+    // Обновить счетчик ходов
         public void UpdateMoveCounter(int moves)
         {
             if (_moveCounterLabel != null)
             {
-                _moveCounterLabel.Text = $"Ходы: {moves}";
+                _moveCounterLabel.Text = $"????: {moves}";
             }
         }
     }

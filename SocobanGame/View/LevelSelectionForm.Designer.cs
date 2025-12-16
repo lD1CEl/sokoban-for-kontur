@@ -2,11 +2,13 @@ using System;
 
 namespace SocobanLevels
 {
+    // Дизайнерская часть формы выбора уровня
     partial class LevelSelectionForm
     {
         private System.ComponentModel.IContainer components = null;
         private System.Windows.Forms.FlowLayoutPanel levelsPanel;
 
+        // Освобождение ресурсов формы
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -16,6 +18,7 @@ namespace SocobanLevels
             base.Dispose(disposing);
         }
 
+        // Инициализация компонентов формы
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
@@ -30,6 +33,7 @@ namespace SocobanLevels
             this.ResumeLayout(false);
         }
 
+        // Инициализация панели с кнопками уровней
         private void InitializeLevelsPanel()
         {
             this.levelsPanel.BackColor = System.Drawing.Color.Transparent;
@@ -43,6 +47,7 @@ namespace SocobanLevels
             this.levelsPanel.WrapContents = true;
         }
 
+        // Базовая настройка формы
         private void InitializeForm()
         {
             this.ClientSize = new System.Drawing.Size(1024, 1024);
@@ -56,6 +61,7 @@ namespace SocobanLevels
             this.Text = "Выбор уровня";
         }
 
+        // Загрузка фонового изображения
         private void LoadBackgroundImage()
         {
             try
@@ -70,6 +76,7 @@ namespace SocobanLevels
             catch { }
         }
 
+        // Загрузка иконки приложения
         private void LoadIcon()
         {
             try

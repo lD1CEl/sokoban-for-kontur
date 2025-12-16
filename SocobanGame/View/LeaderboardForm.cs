@@ -13,6 +13,7 @@ namespace SocobanLevels
         public event EventHandler ViewClosed;
         public event EventHandler<int> LevelSelected;
 
+    // Конструктор формы таблицы лидеров
         public LeaderboardForm(string playerName)
         {
             InitializeComponent();
@@ -21,16 +22,19 @@ namespace SocobanLevels
             this.FormClosed += (s, e) => ViewClosed?.Invoke(this, EventArgs.Empty);
         }
 
+    // Установить имя игрока
         public void SetPlayerName(string playerName)
         {
             playerNameLabel.Text = $"Игрок: {playerName}";
         }
 
+    // Установить количество пройденных уровней
         public void SetCompletedCount(int count)
         {
             completedCountLabel.Text = $"Пройдено уровней: {count}";
         }
 
+    // Установить список уровней в выпадающий список
         public void SetLevels(List<int> levels)
         {
             if (levelComboBox == null) return;
@@ -43,6 +47,7 @@ namespace SocobanLevels
                 levelComboBox.SelectedIndex = 0;
         }
 
+    // Установить записи таблицы лидеров
         public void SetLeaderboardEntries(List<LeaderboardEntry> entries)
         {
             statsListView.Items.Clear();
@@ -60,6 +65,7 @@ namespace SocobanLevels
             }
         }
 
+    // Форматировать время в строку
         private string FormatTime(TimeSpan time)
         {
             if (time.TotalHours >= 1)
@@ -68,16 +74,19 @@ namespace SocobanLevels
                 return $"{time.Minutes:D2}:{time.Seconds:D2}";
         }
 
+    // Показать форму
         public void ShowView()
         {
             this.Show();
         }
 
+    // Скрыть форму
         public void HideView()
         {
             this.Hide();
         }
 
+    // Закрыть форму
         public void CloseView()
         {
             this.Close();

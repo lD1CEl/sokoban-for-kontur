@@ -2,6 +2,7 @@ using System;
 
 namespace SocobanLevels
 {
+    // Интерфейс главного окна игры
     public interface IMainView
     {
         event EventHandler ViewLoaded;

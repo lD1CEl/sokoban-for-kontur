@@ -2,6 +2,7 @@ using System;
 
 namespace SocobanLevels
 {
+    // Дизайнерская часть формы стартового экрана
     partial class StartForm
     {
         private System.ComponentModel.IContainer components = null;
@@ -9,6 +10,7 @@ namespace SocobanLevels
         private System.Windows.Forms.Button leaderboardButton;
         private System.Windows.Forms.Label titleLabel;
 
+        // Освобождение ресурсов формы
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -18,6 +20,7 @@ namespace SocobanLevels
             base.Dispose(disposing);
         }
 
+        // Инициализация компонентов формы
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
@@ -37,6 +40,7 @@ namespace SocobanLevels
             this.PerformLayout();
         }
 
+        // Инициализация заголовка
         private void InitializeTitleLabel()
         {
             this.titleLabel.AutoSize = true;
@@ -49,6 +53,7 @@ namespace SocobanLevels
             this.titleLabel.Text = "Socoban";
         }
 
+        // Инициализация кнопки начала игры
         private void InitializeStartButton()
         {
             this.startButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -62,6 +67,7 @@ namespace SocobanLevels
             this.startButton.Click += new System.EventHandler(this.startButton_Click);
         }
 
+        // Инициализация кнопки открытия таблицы лидеров
         private void InitializeLeaderboardButton()
         {
             this.leaderboardButton.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -75,6 +81,7 @@ namespace SocobanLevels
             this.leaderboardButton.Click += new System.EventHandler(this.leaderboardButton_Click);
         }
 
+        // Базовая настройка формы
         private void InitializeForm()
         {
             this.ClientSize = new System.Drawing.Size(1024, 1024);
@@ -89,6 +96,7 @@ namespace SocobanLevels
             this.Text = "Socoban";
         }
 
+        // Загрузка фонового изображения
         private void LoadBackgroundImage()
         {
             try
@@ -103,6 +111,7 @@ namespace SocobanLevels
             catch { }
         }
 
+        // Загрузка иконки приложения
         private void LoadIcon()
         {
             try

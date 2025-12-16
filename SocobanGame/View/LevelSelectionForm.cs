@@ -14,6 +14,7 @@ namespace SocobanLevels
 
         private readonly string _playerName;
 
+    // Конструктор формы выбора уровня
         public LevelSelectionForm(string playerName = "Player")
         {
             InitializeComponent();
@@ -23,6 +24,7 @@ namespace SocobanLevels
             this.Load += (s, e) => _presenter.Initialize();
         }
 
+    // Загрузка фонового изображения для кнопок
         private void LoadButtonBackground()
         {
             try
@@ -36,6 +38,7 @@ namespace SocobanLevels
             catch { }
         }
 
+    // Установить список доступных уровней
         public void SetLevels(List<int> levels)
         {
             levelsPanel.SuspendLayout();
@@ -86,16 +89,19 @@ namespace SocobanLevels
             levelsPanel.ResumeLayout();
         }
 
+    // Показать форму
         public void ShowView()
         {
             this.Show();
         }
 
+    // Скрыть форму
         public void HideView()
         {
             this.Hide();
         }
 
+    // Закрыть форму
         public void CloseView()
         {
             this.Close();

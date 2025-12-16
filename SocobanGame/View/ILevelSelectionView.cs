@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace SocobanLevels
 {
+    // Интерфейс окна выбора уровня
     public interface ILevelSelectionView
     {
         event EventHandler<int> LevelSelected;

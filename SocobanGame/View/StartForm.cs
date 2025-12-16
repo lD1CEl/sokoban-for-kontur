@@ -10,6 +10,7 @@ namespace SocobanLevels
         public event EventHandler StartGameRequested;
         public event EventHandler LeaderboardRequested;
 
+        // Конструктор формы стартового окна
         public StartForm()
         {
             InitializeComponent();
@@ -18,31 +19,37 @@ namespace SocobanLevels
             this.Resize += (_, __) => AlignCenters();
         }
 
+        // Обработчик нажатия кнопки начала игры
         private void startButton_Click(object sender, EventArgs e)
         {
             StartGameRequested?.Invoke(this, EventArgs.Empty);
         }
 
+        // Обработчик нажатия кнопки таблицы лидеров
         private void leaderboardButton_Click(object sender, EventArgs e)
         {
             LeaderboardRequested?.Invoke(this, EventArgs.Empty);
         }
 
+        // Закрыть форму
         public void CloseView()
         {
             this.Close();
         }
 
+        // Скрыть форму
         public void HideView()
         {
             this.Hide();
         }
 
+        // Показать форму
         public void ShowView()
         {
             this.Show();
         }
 
+        // Выравнивание элементов по центру
         private void AlignCenters()
         {
             this.titleLabel.AutoSize = true;

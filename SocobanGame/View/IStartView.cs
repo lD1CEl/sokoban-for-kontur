@@ -2,6 +2,7 @@ using System;
 
 namespace SocobanLevels
 {
+    // Интерфейс стартового окна
     public interface IStartView
     {
         event EventHandler StartGameRequested;

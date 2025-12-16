@@ -9,6 +9,7 @@ namespace SocobanLevels
 
         public event EventHandler<string> NameEntered;
 
+    // Конструктор формы ввода имени
         public NameInputForm()
         {
             InitializeComponent();
@@ -17,6 +18,7 @@ namespace SocobanLevels
             this.Resize += (_, __) => AlignControls();
         }
 
+    // Обработчик нажатия кнопки подтверждения
         private void confirmButton_Click(object sender, EventArgs e)
         {
             string name = nameTextBox.Text.Trim();
@@ -30,21 +32,25 @@ namespace SocobanLevels
             }
         }
 
+    // Показать форму
         public void ShowView()
         {
             this.Show();
         }
 
+    // Скрыть форму
         public void HideView()
         {
             this.Hide();
         }
 
+    // Закрыть форму
         public void CloseView()
         {
             this.Close();
         }
 
+    // Выравнивание элементов управления по центру
         private void AlignControls()
         {
             int centerX = this.ClientSize.Width / 2;
